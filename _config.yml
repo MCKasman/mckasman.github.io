@@ -7,12 +7,12 @@ first_name: Michael
 middle_name:
 last_name: Kasman
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  <i>"You cannot change your fate. However, you can rise to meet it, if you so choose." -Princess Mononoke (1997)</i>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Michael Kasman's graduate robotics portfolio website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: robotics, medical-robotics, surgical-robotics, robotics-phd-student # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: MK_favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -47,10 +47,10 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-bib_search: true
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -85,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: my-blog # blog_name will be displayed in your blog page
+blog_description: stuff i post when i have the time
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -157,7 +157,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
