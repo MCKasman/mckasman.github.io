@@ -203,8 +203,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kasman]
+  first_name: [Michael]
 
   style: apa
   locale: en
