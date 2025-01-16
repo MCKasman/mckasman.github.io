@@ -26,7 +26,22 @@ ninja.data = [{
         },{id: "news-updated-new-portfolio-website-still-adding-things-in-if-it-looks-a-bit-empty-around-here",
           title: 'Updated new portfolio website - still adding things in if it looks a...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-flare",
+          title: 'Flare',
+          description: "Pinpoint post-disaster areas with a large victim density using computer vision.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/h1_project/";
+            },},{id: "projects-spoodle",
+          title: 'Spoodle',
+          description: "A mobile-app for estaurant owners to sell their leftover food at a discounted price, and donate the rest to homeless shelters, students, etc.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/h2_project/";
+            },},{id: "projects-greenview",
+          title: 'GreenView',
+          description: "A mobile-app that scans an object to determine its recyclability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/h3_project/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
