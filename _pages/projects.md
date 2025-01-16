@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my graduate and hackathon projects.
 nav: true
 nav_order: 3
-display_categories: [graduate, hackatons]
+display_categories: [graduate, hackathons]
 horizontal: false
 ---
 
